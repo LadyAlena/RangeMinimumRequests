@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="alg1">
+      <UniqueIdentifier>{4db89752-a31e-4232-898a-cdb1d1d731d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="alg2">
+      <UniqueIdentifier>{0f57b729-7d90-42e6-b84a-54dc9a2a69fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="alg3">
+      <UniqueIdentifier>{e5153541-f75c-4584-84a6-6e514412b4a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\alg1\RangeMinimumRequests1.cpp">
+      <Filter>alg1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\alg2\RangeMinimumRequests2.cpp">
+      <Filter>alg2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\alg3\RangeMinimumRequests3.cpp">
+      <Filter>alg3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\alg1\RangeMinimumRequests1.h">
+      <Filter>alg1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\alg2\RangeMinimumRequests2.h">
+      <Filter>alg2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\alg3\RangeMinimumRequests3.h">
+      <Filter>alg3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
