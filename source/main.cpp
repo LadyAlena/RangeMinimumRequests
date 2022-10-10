@@ -5,6 +5,11 @@
 
 int main(int argc, char** argv) {
 
+#ifdef _WIN32
+	system("chcp 65001");
+	system("Cls");
+#endif
+
 	int arr[] = {1, 5, 2, 4, 6, 1, 3, 5, 7}; // 1 test
 	// int arr[] = {0, 4, 2, 5, 66, 4, 25}; // 2 test
 	int size = sizeof(arr) / sizeof(int);
