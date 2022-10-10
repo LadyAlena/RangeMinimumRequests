@@ -37,7 +37,7 @@ int alg3::RangeMinimumRequests::getMin(const int left_, const int right_) {
 
 	int number_of_blocks = right_down - left_up + 1; //количество рассматриваемых блоков
 
-	// поиск блоков, находящихся не на концах интервала с последующем выполнением предподсчета
+	// поиск блоков, находящихся не на концах интервала с последующем использования предподсчета
 	if ((left == left_up * sqrt_size) && (right == (right_down + 1) * sqrt_size - 1) && (number_of_blocks > 1)) {
 		for (int block = left_up + 1; block < right_down; ++block) {
 			if (min > memory[block]) { min = memory[block]; }
