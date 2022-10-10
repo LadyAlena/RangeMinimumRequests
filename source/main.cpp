@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 		std::cout << "Правая граница: ";
 		std::cin >> index2;
 
-		system("cls");
+		system("Cls");
 
 		if (index1 < 0 || index2 < 0) {
 			std::cout << "Индексы массива не могут быть меньше нуля" << std::endl;
